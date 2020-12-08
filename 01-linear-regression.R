@@ -6,17 +6,17 @@ library(rcfss)
 # the dataset
 scorecard
 
-# What is the relationship between admission rate and cost?
+# What is the relationship between admission rate and net cost?
 # Report this relationship using a scatterplot and a linear best-fit line.
 
 
-# Estimate a linear regression of the relationship between admission rate and cost,
+# Estimate a linear regression of the relationship between admission rate and net cost,
 # and report your results in a tidy table.
 scorecard_mod <- lm(________, data = scorecard)
 ________(scorecard_mod)
 
 # Estimate separate linear regression models of the relationship between
-# admission rate and cost for each type of college. Report the estimated parameters
+# admission rate and net cost for each type of college. Report the estimated parameters
 # and standard errors in a tidy data frame.
 
 ## model-building function
